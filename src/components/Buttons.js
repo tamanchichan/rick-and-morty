@@ -13,7 +13,7 @@ function Buttons(props) {
       </button>
       <button
         className='add'
-        onClick={() => {navigate(location.href=`/new-character`)}}
+        onClick={() => {navigate(`new-character`)}}
       >
         Add Character
       </button>
